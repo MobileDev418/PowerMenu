@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:textSize="14sp"
         android:fontFamily="sans-serif"
-        android:textStyle="bold"
+<!--        android:textStyle="bold"	-->
         android:textColor="@color/menu_text_no_selected"
         android:lineSpacingExtra="6sp"
         android:padding="13dp"
