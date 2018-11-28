@@ -24,7 +24,6 @@
         android:padding="13dp"
         android:textColor="@color/menu_text_no_selected"
         android:textSize="14sp"
-        android:textStyle="bold"
         tools:text="All Contents" />
 
 </LinearLayout>
