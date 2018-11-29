@@ -145,7 +145,8 @@ public class MainActivity extends AppCompatActivity {
             profileMenu.dismiss();
             return;
         }
-        profileMenu.showAsDropDown(view, -370, 0);
+        profileMenu.showAsDropDown(view, view.getMeasuredWidth()/2 - hamburgerMenu.getContentViewWidth(), 
+             -view.getMeasuredHeight()/2 - hamburgerMenu.getContentViewHeight());
     }
 
     public void onDialog(View view) {
