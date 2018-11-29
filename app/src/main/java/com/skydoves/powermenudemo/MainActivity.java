@@ -190,7 +190,7 @@ public class MainActivity extends AppCompatActivity {
             iconMenu.dismiss();
             return;
         }
-        iconMenu.showAsDropDown(view, -370, 0);
+        iconMenu.showAsDropDown(view, 0, 0);
     }
 
     @Override
